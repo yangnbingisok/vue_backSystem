@@ -2,6 +2,7 @@
   "name": "abing",
   "version": "1.0.0",
   "description": "A Vue.js project",
+  "audit": "yangnbingisok",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -9,13 +10,15 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "echarts": "^4.2.1",
     "element-ui": "^1.2.3",
     "vue": "^2.2.1",
     "vue-echarts-v3": "^1.0.3",
     "vue-markdown": "^2.1.3",
     "vue-quill-editor": "^1.1.1",
     "vue-router": "^2.2.0",
-    "vue-simplemde": "^0.3.7"
+    "vue-simplemde": "^0.3.7",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

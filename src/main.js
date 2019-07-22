@@ -4,14 +4,13 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import ElementUI from 'element-ui';
+import store from './store'
 //引入element-ui的默认CSS样式
 import 'element-ui/lib/theme-default/index.css';
 
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false
-
-
 
 
 /* eslint-disable no-new */
